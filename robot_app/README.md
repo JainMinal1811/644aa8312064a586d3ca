@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*the logic is covered now.
+*for test we use
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*require_relative 'lib/caller'
+*input =  [ 'PLACE 0,0,NORTH',  'MOVE' ]
+*cc = Caller.new(input)
+*cc.move_robot
